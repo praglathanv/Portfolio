@@ -40,7 +40,7 @@ const MainPagePages = () => {
     <div className="pages absolute top-[20px] z-[5]">
       <div className='flex w-[100vw] justify-between px-5 lg:px-16'>
         <ul className='text-white flex flex-col gap-y-60 '>
-          <li className='mt-20 cursor-pointer hover-underline'>Resume</li>
+          <li className='mt-20 cursor-pointer hover-underline'><a href="https://onedrive.live.com/view.aspx?resid=CF5A8B210472D8AF%21201143&authkey=!APjRdao0fza4Ig4 ">Resume</a></li>
           <li onClick={(e) => handleButtonClick(e, '/portfolio/projects')} className='cursor-pointer hover-underline'>Projects</li>
           <li onClick={(e) => handleButtonClick(e, '/portfolio/about')} className='cursor-pointer hover-underline'>About</li>
         </ul>
