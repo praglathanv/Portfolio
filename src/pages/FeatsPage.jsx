@@ -39,7 +39,7 @@ const FeatsPage = () => {
           <div className="cover-box border-box relative text-white  h-[450px] w-[550px] px-3 bg-black m-3 lg:my-10 lg:ml-32">
                <h2 className='ml-4 pt-3 text-xl tracking-wide font-bold'>Internship at Vivartha</h2>
                <p className='mt-4 px-3'>I commenced my career journey as a UI/UX Developer Intern at Vivartha, situated in Dindigul, Tamil Nadu, from January 2024 to March 2024. During this enriching internship, I honed various skills essential to the realm of web development. My responsibilities encompassed crafting engaging landing pages, mastering the art of designing intuitive user interfaces, implementing data fetching mechanisms, and gaining insights into business strategies and digital marketing techniques. This pivotal experience marked the inception of my professional trajectory, equipping me with a solid foundation to thrive in the dynamic field of technology.</p>
-               <a href="" className='absolute bottom-2 right-5 underline'>View certificate</a>
+               <a href="https://drive.google.com/file/d/1YTaq_ean8ryPLslmLShCY1aepKmdWvbW/edit" className='absolute bottom-2 right-5 underline'>View certificate</a>
           </div>
          
         </div>
