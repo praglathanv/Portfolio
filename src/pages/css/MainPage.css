@@ -1,0 +1,105 @@
+.gradient-bg{
+    background: linear-gradient(to right, #000000, #0000ff);
+}
+.gradient-bg2{
+  background: linear-gradient(140deg, #000000, #0000ff, #0000ff);
+}
+.cover{
+   border-top-right-radius: 80px;
+   border-bottom-right-radius: 80px;
+}
+
+.hover-underline {
+    position: relative;
+    display: inline-block;
+    color: #ffffff;
+    text-decoration: none;
+  }
+  
+  .hover-underline::before,
+  .hover-underline::after {
+    content: "";
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    width: 0;
+    height: 2px;
+    background-color: #ffffff;
+    transition: width 0.1s ease;
+  }
+  
+  .hover-underline::before {
+    transform: translateX(-50%);
+  }
+  
+  .hover-underline::after {
+    transform: translateX(-50%);
+  }
+  
+  .hover-underline:hover::before,
+  .hover-underline:hover::after {
+    width: calc(100% - 20px); 
+  }
+
+  .pages {
+    visibility: hidden;
+  }
+
+
+.typing {
+  display: inline-block;
+  overflow: hidden;
+  border-right: .15em solid orange; /* The cursor */
+  white-space: nowrap;
+  margin: 0 auto;
+  letter-spacing: .15em; 
+  animation: blink-caret 0.75s step-end infinite;
+}
+
+@keyframes blink-caret {
+  from, to { border-color: transparent }
+  50% { border-color: orange; }
+}
+
+.backbtn{
+  transform: translate(-50%,50%);
+}
+
+.gradient-change1:hover{
+  background: linear-gradient(310deg, #000000, #0000ff);
+}
+.gradient-change2:hover{
+  background: linear-gradient(30deg, #000000, #0000ff);
+}
+
+.water-drop {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  width: 50px;
+  height: 50px;
+  background: blue;
+  z-index: 988;
+  border-radius: 50%;
+  transform: translate(-50%, -50%) scale(0);
+  pointer-events: none;
+}
+
+.nav-button {
+  position: relative;
+  z-index: 10; 
+}
+
+.big-comet {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  width: 10rem;
+  height: 10rem;
+  box-shadow: 0 0 35px 35px rgba(0, 212, 255, 0.8), 0 0 30px 10px rgba(0, 212, 255, 0.6);
+  background: radial-gradient(circle, rgba(255,255,255,1) 0%, rgba(0,212,255,1) 100%);
+  border-radius: 50%;
+  pointer-events: none; 
+  z-index: 0; 
+  opacity: 0.5; 
+}
