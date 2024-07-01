@@ -16,7 +16,7 @@ const Projects = ({projectCoversRef}) => {
             {/*Content of the back side*/}
                <h3 className='text-center tracking-wide font-extrabold mt-4'>Task-Manager</h3>
                <p className='px-4 pt-7 '>Task-Manager is a work scheduling app which can schedule your works and gives you reminder notification on time.The very useful app for the busy workers.It also provides the dashboard to track your daily tasks.</p>
-               <a href="" className='absolute bottom-4 left-4 cursor-pointer underline'>View Project</a>
+               <a href="https://superb-treacle-78dcf5.netlify.app" className='absolute bottom-4 left-4 cursor-pointer underline'>View Project</a>
             </div>
         </div>
       </div>
