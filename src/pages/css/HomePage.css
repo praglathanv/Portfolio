@@ -2,6 +2,7 @@
   width: 100vw;
   height: 60vh;
 }
+
 .heading {
   color: white;
   font-size: 13rem;
@@ -12,7 +13,15 @@
   visibility: hidden;
   transform: translate(-50%, -50%);
 }
-.zoom-button{
+
+/* Mobile view styles */
+@media (max-width: 768px) {
+  .heading {
+    font-size: 90px;
+  }
+}
+
+.zoom-button {
   text-align: center;
   color: white;
   opacity: 0.7;
@@ -26,25 +35,25 @@
   animation: fade 3s ease-in-out infinite;
 }
 
-.zoom-button:hover{
+.zoom-button:hover {
   animation-play-state: paused;
   opacity: 1 !important;
-
 }
+
 @keyframes fade {
-  0%{
-      opacity: 0.2;
+  0% {
+    opacity: 0.2;
   }
-  30%{
-      opacity: 0.5;
+  30% {
+    opacity: 0.5;
   }
-  78%{
+  78% {
     opacity: 0.8;
   }
-  89%{
+  89% {
     opacity: 0.4;
   }
-  100%{
-     opacity: 0.2;
+  100% {
+    opacity: 0.2;
   }
 }

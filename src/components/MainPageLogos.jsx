@@ -11,22 +11,22 @@ const MainPageLogos = () => {
       <ul className='pl-5 mt-[-10px] flex gap-x-5'>
         <a href="https://www.linkedin.com/in/pragalathanv07/">
           <li className='cursor-pointer hover:bg-white rounded-full'>
-            <img className='h-[60px] mt-[-15px]' src={linkedinlogo} alt="" />
+            <img className='h-[40px] md:h-[60px] mt-[-15px]' src={linkedinlogo} alt="" />
           </li>
         </a>
         <a href="mailto:pragalathanv07@gmail.com">
           <li className='cursor-pointer hover:bg-white rounded-full'>
-            <img className='h-[60px] mt-[-15px]' src={gmaillogo} alt="" />
+            <img className='h-[40px] md:h-[60px] mt-[-15px]' src={gmaillogo} alt="" />
           </li>
         </a>
         <a href="https://x.com/VPragalath28180">
           <li className='cursor-pointer hover:bg-white rounded-full'>
-            <img className='h-[65px] mt-[-15px]' src={telegramlogo} alt="" />
+            <img className='h-[45px] md:h-[65px] mt-[-15px]' src={telegramlogo} alt="" />
           </li>
         </a>
         <a href="https://api.whatsapp.com/send?phone=917604931644">
           <li className='cursor-pointer hover:bg-white rounded-full'>
-            <img className='h-[60px] mt-[-15px]' src={whatsapplogo} alt="" />
+            <img className='h-[40px] md:h-[60px] mt-[-15px]' src={whatsapplogo} alt="" />
           </li>
         </a>
       </ul>
